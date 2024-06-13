@@ -29,16 +29,44 @@ def fetch_yaml(url: str):
 
 
 def render_resource(resource: dict):
-    return {}
-
-def new_render_resource(resource: dict):
 
     title = resource["title"]
     resource_url = resource["url"]
     description = resource["description"]
 
+
+    #if "thumbnail" in resource:
+    #else:
+    try:
+        thumbnail = "https://projectpythia.org/" + resource['thumbnail']
+    except:
+        thumbnail = "https://projectpythia.org/_static/thumbnails/ProjectPythia_Blue.png"
+
     # Build tags
     tags = resource["tags"]
+
+    return {
+        "type": "card",
+        "url": resource_url,
+        "children": [
+            {"type": "cardTitle", "children": [text(title)]},
+            div([
+                image(thumbnail),
+                text(description),
+                div(
+                        [
+                            span(
+                                [text(item)],
+                                style=styles.get(name, DEFAULT_STYLE),
+                            )
+                            for name, items in tags.items()
+                            if items is not None
+                            for item in items
+                        ]
+                )
+            ])
+        ]
+    }
 
     return {
         "type": "card",
