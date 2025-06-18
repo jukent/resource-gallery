@@ -14,8 +14,3 @@ project:
     - pythia-gallery.mjs
   toc:
     - file: index.md
-site:
-  template: book-theme
-  options:
-    hide_toc: true
-    hide_outline: true
