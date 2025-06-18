@@ -38,7 +38,7 @@ def render_resource(resource: dict):
     #if "thumbnail" in resource:
     #else:
     try:
-        thumbnail = "https://projectpythia.org/" + resource['thumbnail']
+        thumbnail = "https://projectpythia.org/resource-gallery/" + resource['thumbnail']
     except:
         thumbnail = "https://projectpythia.org/_static/thumbnails/ProjectPythia_Blue.png"
 
@@ -95,7 +95,7 @@ def render_resource(resource: dict):
 
 def render_resources(pool):
     
-    resources = fetch_yaml("https://raw.githubusercontent.com/ProjectPythia/projectpythia.github.io/main/portal/resource_gallery.yaml")
+    resources = fetch_yaml("https://raw.githubusercontent.com/ProjectPythia/resource-gallery/main/portal/resource_gallery.yaml")
 
     return [*pool.map(render_resource, resources)]
 
