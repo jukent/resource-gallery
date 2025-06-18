@@ -14,3 +14,7 @@ project:
     - pythia-gallery.mjs
   toc:
     - file: index.md
+site:
+  options:
+    hide_toc: true
+    hide_outline: true
