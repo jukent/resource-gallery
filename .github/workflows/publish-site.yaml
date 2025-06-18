@@ -10,9 +10,6 @@ on:
 jobs:
   build:
     uses: ProjectPythia/cookbook-actions/.github/workflows/build-book.yaml@main
-    with:
-      path_to_notebooks: 'portal'
-      base_url: ''
 
   deploy:
     needs: build

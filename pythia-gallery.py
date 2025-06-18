@@ -38,9 +38,9 @@ def render_resource(resource: dict):
     #if "thumbnail" in resource:
     #else:
     try:
-        thumbnail = "https://projectpythia.org/resource-gallery/" + resource['thumbnail']
+        thumbnail = resource['thumbnail']
     except:
-        thumbnail = "https://projectpythia.org/_static/thumbnails/ProjectPythia_Blue.png"
+        thumbnail = "_static/thumbnails/ProjectPythia_Blue.png"
 
     # Build tags
     tags = resource["tags"]
@@ -68,34 +68,11 @@ def render_resource(resource: dict):
         ]
     }
 
-    return {
-        "type": "card",
-        "url": resource_url,
-        "children": [
-            {"type": "cardTitle", "children": [text(title)]},
-            div(
-                [
-                    description,
-                    div(
-                        [
-                            span(
-                                [text(item)],
-                                style=styles.get(name, DEFAULT_STYLE),
-                            )
-                            for name, items in tags.items()
-                            if items is not None
-                            for item in items
-                        ]
-                    ),
-                ],
-            ),
-        ],
-    }
-
 
 def render_resources(pool):
     
-    resources = fetch_yaml("https://raw.githubusercontent.com/ProjectPythia/resource-gallery/main/portal/resource_gallery.yaml")
+    with open("resource_gallery.yml", "r") as f:
+        resources = yaml.load(f, yaml.SafeLoader)
 
     return [*pool.map(render_resource, resources)]
 
