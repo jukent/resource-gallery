@@ -37,10 +37,7 @@ def render_resource(resource: dict):
 
     #if "thumbnail" in resource:
     #else:
-    try:
-        thumbnail = resource['thumbnail']
-    except:
-        thumbnail = "_static/thumbnails/ProjectPythia_Blue.png"
+    thumbnail = resource.get('thumbnail') or "_static/thumbnails/ProjectPythia_Blue.png"
 
     # Build tags
     tags = resource["tags"]
