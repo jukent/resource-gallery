@@ -1237,7 +1237,7 @@
     - xdev
 
 - title: The Pythia Foundations Book
-  url: https://foundations.projectpythia.org/landing-page.html
+  url: https://foundations.projectpythia.org/
   description: |
     Brought to you by Project Pythia, this growing collection covers the foundational skills everyone needs to get started with scientific computing in the open-source Python ecosystem.
   authors:
