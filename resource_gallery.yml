@@ -1252,7 +1252,7 @@
     - pythia
 
 - title: Pythia Foundations - Getting started with Python
-  url: https://foundations.projectpythia.org/foundations/getting-started-python.html
+  url: https://foundations.projectpythia.org/foundations/getting-started-python
   description: |
     This chapter of the Pythia Foundations book covers Python spin-up for new users. Here you will look at your first Python code and learn to run/install Python on various platforms.
   authors:
@@ -1269,7 +1269,7 @@
     - pure python
 
 - title: Pythia Foundations - Getting started with Jupyter
-  url: https://foundations.projectpythia.org/foundations/getting-started-jupyter.html
+  url: https://foundations.projectpythia.org/foundations/getting-started-jupyter
   description: |
     This chapter of the Pythia Foundations book covers Python spin-up using Jupyter. Here you will learn about the JupyterLab interface and markdown formatting.
   authors:
@@ -1286,7 +1286,7 @@
     - jupyter
 
 - title: Pythia Foundations - Getting started with GitHub
-  url: https://foundations.projectpythia.org/foundations/getting-started-github.html
+  url: https://foundations.projectpythia.org/foundations/getting-started-github
   description: |
     This chapter of the Pythia Foundations book covers GitHub: what it is, basic version control, and how to open a pull request.
   authors:
@@ -1303,7 +1303,7 @@
     - git
 
 - title: Pythia Foundations - Numpy
-  url: https://foundations.projectpythia.org/core/numpy.html
+  url: https://foundations.projectpythia.org/core/numpy
   description: |
     This chapter of the Pythia Foundations book covers the Python package NumPy: NumPy basics, intermediate NumPy, and NumPy broadcasting.
   authors:
@@ -1320,7 +1320,7 @@
     - numpy
 
 - title: Pythia Foundations - Matplotlib
-  url: https://foundations.projectpythia.org/core/matplotlib.html
+  url: https://foundations.projectpythia.org/core/matplotlib
   description: |
     This chapter of the Pythia Foundations book covers basics of the Python package Matplotlib.
   authors:
@@ -1339,7 +1339,7 @@
     - data visualization
 
 - title: Pythia Foundations - Cartopy
-  url: https://foundations.projectpythia.org/core/cartopy.html
+  url: https://foundations.projectpythia.org/core/cartopy
   description: |
     This chapter of the Pythia Foundations book introduces the Python package Cartopy, a package designed for geospatial data processing and used for its ability to produce maps.
   authors:
@@ -1358,7 +1358,7 @@
     - data visualization
 
 - title: Pythia Foundations - Datetime
-  url: https://foundations.projectpythia.org/core/datetime.html
+  url: https://foundations.projectpythia.org/core/datetime
   description: |
     This section of the Pythia Foundations book contains tutorials on dealing with times and calendars in scientific Python, beginning with use of the datetime standard library.
   authors:
@@ -1375,7 +1375,7 @@
     - datetime
 
 - title: Pythia Foundations - Pandas
-  url: https://foundations.projectpythia.org/core/pandas.html
+  url: https://foundations.projectpythia.org/core/pandas
   description: |
     This section of the Pythia Foundations book covers Pandas, a very powerful library for working with tabular data (i.e. anything you might put in a spreadsheet – a common data type in the geosciences).
   authors:
@@ -1392,7 +1392,7 @@
     - pandas
 
 - title: Pythia Foundations - Data Formats
-  url: https://foundations.projectpythia.org/core/pandas.html
+  url: https://foundations.projectpythia.org/core/data-formats
   description: |
     This section of the Pythia Foundations book covers how to interact in Python with data file formats in widespread use in the geosciences, such as NetCDF.
   authors:
@@ -1411,7 +1411,7 @@
     - netCDF4
 
 - title: Pythia Foundations - Xarray
-  url: https://foundations.projectpythia.org/core/xarray.html
+  url: https://foundations.projectpythia.org/core/xarray
   description: |
     This section of the Pythia Foundations book contains tutorials on using Xarray. Xarray is used widely in the geosciences and beyond for analysis of gridded N-dimensional datasets.
   authors:
