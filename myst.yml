@@ -18,3 +18,4 @@ site:
   options:
     hide_toc: true
     hide_outline: true
+    analytics_google: G-T9KGMX7VHZ # Measurement ID or Tracking ID
