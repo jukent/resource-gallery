@@ -1569,3 +1569,29 @@
   tags:
     formats:
     - documentation
+
+- title: Geoprocessing with GRASS
+  url: https://grass-tutorials.osgeo.org/
+  thumbnail: https://grass-tutorials.osgeo.org/content/tutorials/numpy_integration/thumbnail.webp
+  description: |
+    Hands-on tutorials for learning GRASS, an open source computational engine for geospatial processing and analysis.
+  authors:
+  - name: GRASS community
+    affiliation: GRASS
+    affiliation_url: https://grass.osgeo.org/
+  tags:
+    packages:
+      - jupyter
+      - numpy
+      - matplotlib
+      - pandas
+    formats:
+      - tutorial
+      - gallery
+    domains:
+      - geocomputing
+      - environmental science
+      - hydrology
+      - ecology
+      - data science
+      - remote sensing
