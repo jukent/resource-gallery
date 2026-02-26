@@ -64,7 +64,7 @@
     - pangeo
 
 - title: The Climate Laboratory
-  url: https://brian-rose.github.io/ClimateLaboratoryBook/home
+  url: https://brian-rose.github.io/ClimateLaboratoryBook/
   description: |
     A hands on approach to climate physics and climate modeling. Fundamental climate processes are introduced through interactive and reproducible Python-based modeling exercises.  This JupyterBook serves as a course textbook at the University of Albany.
   authors:
@@ -83,12 +83,12 @@
     - climlab
 
 - title: Earth Analytics Python Course
-  url: https://www.earthdatascience.org/courses/earth-analytics-python/
+  url: http://www.earthdatascience.org/courses/earth-analytics-python/
   description: |
     Earth analytics is an intermediate, multidisciplinary course that addresses major questions in Earth science and teaches students to use the analytical tools necessary to undertake exploration of heterogeneous ‘big scientific data’. This course is designed for graduate students and students participating in the Earth Data Analytics Professional Certificate.
   authors:
   - name: Earth Lab
-    url: https://www.earthdatascience.org/
+    url: http://www.earthdatascience.org/
     affiliation: University of Colorado Boulder
   thumbnail: /_static/thumbnails/earth-lab-logo.png
   tags:
@@ -96,7 +96,7 @@
     - course
 
 - title: Earth Data Science
-  url: https://www.earthdatascience.org/
+  url: http://www.earthdatascience.org/
   description: |
     This site contains open, tutorials and course materials covering topics including data integration, GIS and data intensive science.
   authors:
@@ -121,7 +121,7 @@
     - course
 
 - title: Research Software Engineering with Python
-  url: https://merely-useful.github.io/py-rse/
+  url: https://third-bit.com/py-rse/
   description: |
     We believe every researcher should know how to write short programs that clean and analyze data in a reproducible way and how to use version control to keep track of what they have done. But just as some astronomers spend their careers designing telescopes, some researchers focus on building the software that makes research possible. People who do this are called research software engineers; the aim of this book is to get you ready for this role by helping you go from writing code for yourself to creating tools that help your entire field advance.
   authors:
@@ -156,21 +156,6 @@
     formats:
     - course
 
-- title: ATSC301- Atmospheric Radiation and Remote Sensing
-  url: https://clouds.eos.ubc.ca/~phil/courses/atsc301/
-  description: |
-    This course teaches radiation and remote sensing, but also covers: how to write clear, documented and tested code that can ingest, manipulate and display data, and how to turn equations into computer algorithms in Python.
-  authors:
-  - name: Philip Austin
-    email: paustin@eos.ubc.ca
-    affiliation: University of British Columbia
-  thumbnail: /_static/thumbnails/british-columbia.jpg
-  tags:
-    formats:
-    - course
-    domains:
-    - remote sensing
-
 - title: Introduction to Geospatial Concepts
   url: https://datacarpentry.org/organization-geospatial/
   description: |
@@ -184,7 +169,7 @@
     - course
 
 - title: Dani Arribas-Bel Course Repositories
-  url: http://darribas.org/materials.html
+  url: https://me.darribas.org/materials/
   description: |
     A collection of courework repositories for various data science classes taught by Dani Arribas-Bel.
   authors:
@@ -199,7 +184,7 @@
     - data science
 
 - title: Cartopy Documentation
-  url: https://scitools.org.uk/cartopy/docs/latest/
+  url: https://cartopy.readthedocs.io/stable/
   description: |
     Cartopy is a Python package designed for geospatial data processing in order to produce maps and other geospatial data analyses.
   authors:
@@ -212,7 +197,7 @@
     - documentation
 
 - title: Cartopy Gallery
-  url: https://scitools.org.uk/cartopy/docs/latest/gallery/index.html
+  url: https://cartopy.readthedocs.io/stable/gallery/index.html
   description: |
     Visual examples demonstrating some of the functionality of Cartopy, particularly its matplotlib interface.
   authors:
@@ -371,7 +356,7 @@
     - data visualization
 
 - title: hvPlot Gallery
-  url: https://hvplot.holoviz.org/reference/index.html
+  url: https://hvplot.holoviz.org/en/docs/latest/gallery/index.html
   description: |
     Incomplete Reference Gallery containing some small examples of different plot types using hvPlot.
   authors:
@@ -833,8 +818,8 @@
     computational notebooks for collaborative, reproducible and transparent Environmental
     Science
   url: https://github.com/alan-turing-institute/environmental-ds-book
-  thumbnail:
-    https://raw.githubusercontent.com/alan-turing-institute/environmental-ds-book/master/book/figures/logo/logo.png
+  thumbnail: 
+    https://raw.githubusercontent.com/eds-book/eds-book/refs/heads/main/book/_static/edsbook_logo-black.png
   authors:
   - name: EDS book community
     affiliation: Environmental Data Science Book
