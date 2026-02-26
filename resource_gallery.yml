@@ -156,6 +156,21 @@
     formats:
     - course
 
+- title: ATSC301- Atmospheric Radiation and Remote Sensing
+  url: https://phaustin.github.io/a301_eoas/notebooks/index.html
+  description: |
+    This course teaches radiation and remote sensing, but also covers: how to write clear, documented and tested code that can ingest, manipulate and display data, and how to turn equations into computer algorithms in Python.
+  authors:
+  - name: Philip Austin
+    email: paustin@eos.ubc.ca
+    affiliation: University of British Columbia
+  thumbnail: /_static/thumbnails/british-columbia.jpg
+  tags:
+    formats:
+    - course
+    domains:
+    - remote sensing
+
 - title: Introduction to Geospatial Concepts
   url: https://datacarpentry.org/organization-geospatial/
   description: |
