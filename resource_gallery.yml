@@ -157,7 +157,7 @@
     - course
 
 - title: ATSC301- Atmospheric Radiation and Remote Sensing
-  url: https://phaustin.github.io/a301_eoas/notebooks/index.html
+  url: https://phaustin.github.io/a301_eoas/
   description: |
     This course teaches radiation and remote sensing, but also covers: how to write clear, documented and tested code that can ingest, manipulate and display data, and how to turn equations into computer algorithms in Python.
   authors:
