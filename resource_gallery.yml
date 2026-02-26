@@ -199,7 +199,7 @@
     - data science
 
 - title: Cartopy Documentation
-  url: https://cartopy.readthedocs.io/stable/
+  url: https://cartopy.readthedocs.io/
   description: |
     Cartopy is a Python package designed for geospatial data processing in order to produce maps and other geospatial data analyses.
   authors:
