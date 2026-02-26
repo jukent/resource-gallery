@@ -212,7 +212,7 @@
     - documentation
 
 - title: Cartopy Gallery
-  url: https://cartopy.readthedocs.io/stable/gallery/index.html
+  url: https://cartopy.readthedocs.io/stable/gallery/
   description: |
     Visual examples demonstrating some of the functionality of Cartopy, particularly its matplotlib interface.
   authors:
